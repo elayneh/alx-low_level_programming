@@ -4,7 +4,7 @@
  *@c: the number to be checked.
  * Return: 1 if character, o if otherwise.
  */
-int _isalpha(int c)
+int _isalpha(int a)
 {
 	if ((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
 	{
