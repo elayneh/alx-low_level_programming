@@ -4,7 +4,7 @@
  * @n: the number which contains the last digit
  * Return: return the value of the last digit 
  */
-int print_last_digit(int n)
+int _print_last_digit(int n)
 {
 	int m;
 	m = (n % 10);
