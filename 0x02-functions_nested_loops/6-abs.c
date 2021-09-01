@@ -1,10 +1,12 @@
 #include "main.h"
 /**
- *_abs - print the absolute value an integer.
- *@a: integer to be printed.
- *Return: absolute value of a.
+ * _abs - calculate the absolute value of the number from zero.
+ * @i: the integer to be converted.
+ * Return: absolute value of the input number.
  */
-int _abs(int a)
+int _abs(int i)
 {
-	return (a * (a > 0) - (a < 0));
+	if (i < 0)
+		i = i * -1;
+	return (i);
 }
