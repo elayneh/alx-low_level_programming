@@ -1,22 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 
 /**
- * main - Entry point
- *
- * @argc: incoming argument
- * @argc: incoming argument
- *
- * Return: Always 0 (Success)
+ * main - entry
+ * @argc: length of command line input
+ * @argv: array of command line argument
+ * Return: 0 if success
  */
-int main(int argc, char **argv)
-	{
-
-	char **argv __attribute__((unused));
-
-	printf("%d\n", argc);
+int main(int argc, char const *argv[] __attribute__((unused)))
+{
+	printf("%d\n", argc - 1);
 
 	return (0);
-
-	}
+}
