@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /**
  * main - Entry point
  *
@@ -10,13 +9,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int argc, char **argv)
-	{
+int main(int argc, char *argv[])
+{
 
-	char **argv __attribute__((unused));
+	int i;
 
-	printf("%d\n", argc);
+	for(i = 0; i < argc;i++)
+		printf("%s\n", argv[i];
 
 	return (0);
-
-	}
+}
