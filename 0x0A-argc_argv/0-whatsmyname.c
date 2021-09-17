@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the file
- * @argc: number of the arguments
- * @argv: array name
- * return: 0
+ * main - entry
+ * @argc: length of command line input
+ * @argv: array of command line argument
+ * Return: 0 if success
  */
-
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char const *argv[])
 {
-	printf("%s\n", argv[argc * 0]);
+	printf("%s\n", argv[argc - argc]);
 
 	return (0);
 }
