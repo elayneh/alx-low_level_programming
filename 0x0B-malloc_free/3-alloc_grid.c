@@ -1,6 +1,6 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "bootcamp.h"
 /**
  * alloc_grid - creates 2D array of ints
  * @width: width of 2D array
@@ -33,4 +33,3 @@ int **alloc_grid(int width, int height)
 			arr[i][j] = 0;
 	return (arr);
 }
-
