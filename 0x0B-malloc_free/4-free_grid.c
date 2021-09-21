@@ -1,6 +1,7 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+
 /**
  * free_grid - frees a 2D grid previously created
  * @grid: input pointer to grid or 2D array
