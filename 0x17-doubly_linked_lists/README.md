@@ -1,1 +1,1 @@
-this is a READE file for the 0x17-doubly_linked_lists project.
+This is a README for my 0x17-doubly_linked_lists project!
