@@ -1,13 +1,13 @@
 /*
  * File: 8-sum_listint.c
- * Auth: Belayneh Getachew
+ * Auth: Brennan D Baraban
  */
 
 #include "lists.h"
 
 /**
  * sum_listint - Calculates the sum of all the
- *               data (num) of a listint_t list.
+ *               data (n) of a listint_t list.
  * @head: A pointer to the head of the listint_t list.
  *
  * Return: If the list is empty - 0.
@@ -19,7 +19,7 @@ int sum_listint(listint_t *head)
 
 	while (head)
 	{
-		sum += head->num;
+		sum += head->n;
 		head = head->next;
 	}
 

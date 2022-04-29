@@ -1,6 +1,6 @@
 /*
  * File: 3-add_nodeint_end.c
- * Auth: Belayneh Getachew
+ * Auth: Brennan D Baraban
  */
 
 #include "lists.h"

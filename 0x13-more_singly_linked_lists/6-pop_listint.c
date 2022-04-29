@@ -1,6 +1,6 @@
 /*
  * File: 6-pop_listint.c
- * Auth: Belayneh Getachew
+ * Auth: Brennan D Baraban
  */
 
 #include "lists.h"
@@ -15,15 +15,17 @@
  */
 int pop_listint(listint_t **head)
 {
-	listint_t *temp;
-	int rest;
+	listint_t *tmp;
+	int ret;
 
 	if (*head == NULL)
 		return (0);
 
-	temp = *head;
-	rest = (*head)->next;
+	tmp = *head;
+	ret = (*head)->n;
+	*head = (*head)->next;
 
-	free(temp);
-	return (rest);
+	free(tmp);
+
+	return (ret);
 }

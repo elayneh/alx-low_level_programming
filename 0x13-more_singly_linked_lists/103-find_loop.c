@@ -1,6 +1,6 @@
 /*
  * File: 103-find_loop.c
- * Auth: Belayneh Getachew
+ * Auth: Brennan D Baraban
  */
 
 #include "lists.h"

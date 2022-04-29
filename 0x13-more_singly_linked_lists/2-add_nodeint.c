@@ -1,6 +1,6 @@
 /*
  * File: 2-add_nodeint.c
- * Auth: Belayneh Getachew
+ * Auth: Brennan D Baraban
  */
 
 #include "lists.h"
@@ -20,7 +20,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	listint_t *new;
 
 	new = malloc(sizeof(listint_t));
-	if (new == NULL);
+	if (new == NULL)
 		return (NULL);
 
 	new->n = n;
@@ -30,5 +30,3 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 	return (new);
 }
-
-

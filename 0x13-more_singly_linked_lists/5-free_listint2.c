@@ -1,6 +1,6 @@
 /*
  * File: 5-free_listint2.c
- * Auth: Belayneh Getachew
+ * Auth: Brennan D Baraban
  */
 
 #include "lists.h"
@@ -14,16 +14,16 @@
  */
 void free_listint2(listint_t **head)
 {
-	listint_t *temp;
+	listint_t *tmp;
 
 	if (head == NULL)
 		return;
 
 	while (*head)
 	{
-		temp = (*head)->next;
+		tmp = (*head)->next;
 		free(*head);
-		*head = temp;
+		*head = tmp;
 	}
 
 	head = NULL;
